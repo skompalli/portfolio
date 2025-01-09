@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Suparna Kompalli",
 		description:
-		"Computer Science and Data Science at the University of California, Berkeley"
+		"Computer Science and Data Science \nat the University of California, Berkeley"
 	},
 
 	about: {

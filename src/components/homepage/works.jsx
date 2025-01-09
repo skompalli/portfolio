@@ -11,6 +11,7 @@ const Works = () => {
 			<Card
 				icon={faBriefcase}
 				title="Experience"
+				link="https://www.linkedin.com/in/suparna-kompalli-79463b229/"
 				body={
 					<div className="works-body">
 						<div className="work">
