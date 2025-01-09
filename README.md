@@ -1,0 +1,1 @@
+Adopted from [truethari](https://github.com/truethari/reactfolio) template.
