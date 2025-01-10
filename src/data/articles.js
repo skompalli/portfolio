@@ -2,15 +2,14 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
-		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+		date: "Fall 2022",
+		title: "Diversity Data Analysis Tool",
+		description: "As part of the Data Discovery Program at UC Berkeley, I was able to coordinate directly with United States Air Force Representatives to build a tool that provides a holistic measure for assessing diversity, equity, and inclusion within the United States Air Force. ",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Data Discovery Program",
+			"Suparna",
+			"Suparna K",
+			"Suparna Kompalli",
 		],
 		style: `
 				.article-content {
@@ -19,19 +18,24 @@ function article_1() {
 					align-items: center;
 				}
 
-				.randImage {
+				.full-image {
 					align-self: center;
-					outline: 2px solid red;
+					outline: 2px solid #f4f4f5;
+					position: center
+					height: 90%;
+					width: 90%;
 				}
 				`,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
+					<div className="paragraph">
+					As part of the Data Discovery Program at UC Berkeley, I was able to coordinate directly with United States Air Force Representatives to build a tool that provides a holistic measure for assessing diversity, equity, and inclusion within the United States Air Force. I led a team to design a Tableau Dashboard that enables hiring manages to identify and analyze barriers to entry. I explored the impact of local demographic on the population within the Air Force.
+						</div>
 					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
+						src="../DDAT.png"
+						alt="Unable to load image."
+						className="full-image"
 					/>
 				</div>
 			</React.Fragment>
