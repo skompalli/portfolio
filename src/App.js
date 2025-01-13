@@ -23,7 +23,7 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/skompalli.github.io/portfolio" element={<Homepage />} />
+				<Route path="/skompalli.github.io/portfolio/" element={<Homepage />} />
 				<Route path="/skompalli.github.io/portfolio/about" element={<About />} />
 				<Route path="/skompalli.github.io/portfolio/projects" element={<Projects />} />
 				<Route path="/skompalli.github.io/portfolio/articles" element={<Articles />} />

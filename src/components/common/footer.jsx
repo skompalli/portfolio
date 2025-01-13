@@ -18,12 +18,6 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/portfolio/projects">Projects</Link>
 						</li>
-						{/*<li className="footer-nav-link-item">
-							<Link to="/articles">Articles</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/contact">Contact</Link>
-	</li>*/}
 					</ul>
 				</div>
 
