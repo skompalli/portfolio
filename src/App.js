@@ -24,11 +24,11 @@ function App() {
 		<div className="App">
 			<Routes>
 				<Route path="skompalli.github.io/portfolio" element={<Homepage />} />
-				<Route path="skompalli.github.io/portfolio/about" element={<About />} />
-				<Route path="skompalli.github.io/portfolio/projects" element={<Projects />} />
-				<Route path="skompalli.github.io/portfolio/articles" element={<Articles />} />
-				<Route path="skompalli.github.io/portfolio/article/:slug" element={<ReadArticle />} />
-				<Route path="skompalli.github.io/portfolio/contact" element={<Contact />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/articles" element={<Articles />} />
+				<Route path="/article/:slug" element={<ReadArticle />} />
+				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
