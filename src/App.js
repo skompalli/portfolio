@@ -23,12 +23,12 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/portfolio" element={<Homepage />} />
-				<Route path="/portfolio/about" element={<About />} />
-				<Route path="/portfolio/projects" element={<Projects />} />
-				<Route path="/portfolio/articles" element={<Articles />} />
-				<Route path="/portfolio/article/:slug" element={<ReadArticle />} />
-				<Route path="/portfolio/contact" element={<Contact />} />
+				<Route path="skompalli.github.io/portfolio" element={<Homepage />} />
+				<Route path="skompalli.github.io/portfolio/about" element={<About />} />
+				<Route path="skompalli.github.io/portfolio/projects" element={<Projects />} />
+				<Route path="skompalli.github.io/portfolio/articles" element={<Articles />} />
+				<Route path="skompalli.github.io/portfolio/article/:slug" element={<ReadArticle />} />
+				<Route path="skompalli.github.io/portfolio/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
