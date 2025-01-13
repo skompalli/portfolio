@@ -6,7 +6,7 @@ const INFO = {
 		title: "Suparna Kompalli Portfolio",
 		name: "Suparna Kompalli",
 		email: "skompalli@berkeley.edu",
-		logo: "../logo.png",
+		logo: "./logo.png",
 	},
 
 	socials: {
@@ -49,7 +49,7 @@ const INFO = {
 			title: "Diversity Data Analysis Tool",
 			description:
 				"As part of the Data Discovery Program at UC Berkeley, I was able to coordinate directly with United States Air Force Representatives to build a tool that provides a holistic measure for assessing diversity, equity, and inclusion within the United States Air Force.",
-			logo: "/airforce_logo.png",
+			logo: "airforce_logo.png",
 			linkText: "View Project Poster",
 			link: "/article/1",
 		},
