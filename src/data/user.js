@@ -37,14 +37,21 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Personal Portfolio (This Site)",
+			title: "Deep Learning: Digit Detection",
 			description:
-				"I created my own personal portfolio using React, HTML/CSS, and Javascript. Adapted from a portfolio template.",
+				"I implemented a fully connected convolutional neural network with backpropagation for image recognition on the MNIST dataset to precisely identify handwritten digits.",
 			logo: "react-logo.png",
-			linkText: "View Project Repository",
-			link: "https://github.com/skompalli/portfolio",
+			linkText: "Read More",
+			link: "/article/2",
 		},
-
+		{
+			title: "Natural Language Processing: Spam Emails",
+			description:
+				"I leveraged text mining and NLP to create a classifier with logistic regression to predict if an email was spam.",
+			logo: "react-logo.png",
+			linkText: "Read More",
+			link: "/article/3",
+		},
 		{
 			title: "Diversity Data Analysis Tool",
 			description:
@@ -52,6 +59,22 @@ const INFO = {
 			logo: "airforce_logo.png",
 			linkText: "View Project Poster",
 			link: "/article/1",
+		},
+		{
+			title: "Predicting Heart Disease",
+			description:
+				"Developed a KNN classifier to predict heart disease in an individual based on attributes such as age, sex, cholesterol, and blood pressure. Performed data cleaning, exploratory data analysis, feature engineering and cross-validation.",
+			logo: "react-logo.png",
+			linkText: "Read More",
+			link: "/article/4",
+		},
+		{
+			title: "Personal Portfolio (This Site)",
+			description:
+				"I created my own personal portfolio using React, HTML/CSS, and Javascript.",
+			logo: "react-logo.png",
+			linkText: "View Project Repository",
+			link: "https://github.com/skompalli/portfolio",
 		},
 	],
 };

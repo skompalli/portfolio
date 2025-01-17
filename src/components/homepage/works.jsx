@@ -22,7 +22,7 @@ const Works = () => {
 							/>
 							<div className="work-title">UC Berkeley</div>
 							<div className="work-subtitle">
-								Curriculum Developer
+								Data Science Curriculum Developer
 							</div>
 							<div className="work-duration">Jan 2025 - Present</div>
 						</div>
