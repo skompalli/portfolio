@@ -40,7 +40,7 @@ const INFO = {
 			title: "Deep Learning: Digit Detection",
 			description:
 				"I implemented a fully connected convolutional neural network with backpropagation for image recognition on the MNIST dataset to precisely identify handwritten digits.",
-			logo: "react-logo.png",
+			logo: "cnn.png",
 			linkText: "Read More",
 			link: "/article/2",
 		},
@@ -48,14 +48,14 @@ const INFO = {
 			title: "Natural Language Processing: Spam Emails",
 			description:
 				"I leveraged text mining and NLP to create a classifier with logistic regression to predict if an email was spam.",
-			logo: "react-logo.png",
+			logo: "nlp.png",
 			linkText: "Read More",
 			link: "/article/3",
 		},
 		{
 			title: "Diversity Data Analysis Tool",
 			description:
-				"As part of the Data Discovery Program at UC Berkeley, I was able to coordinate directly with United States Air Force Representatives to build a tool that provides a holistic measure for assessing diversity, equity, and inclusion within the United States Air Force.",
+				"As part of the Data Discovery Program at UC Berkeley, I worked with United States Air Force Representatives to build a tool that provides a holistic measure for assessing diversity, equity, and inclusion within the United States Air Force.",
 			logo: "airforce_logo.png",
 			linkText: "View Project Poster",
 			link: "/article/1",
@@ -64,7 +64,7 @@ const INFO = {
 			title: "Predicting Heart Disease",
 			description:
 				"Developed a KNN classifier to predict heart disease in an individual based on attributes such as age, sex, cholesterol, and blood pressure. Performed data cleaning, exploratory data analysis, feature engineering and cross-validation.",
-			logo: "react-logo.png",
+			logo: "knn.png",
 			linkText: "Read More",
 			link: "/article/4",
 		},
