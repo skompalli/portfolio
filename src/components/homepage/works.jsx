@@ -35,7 +35,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Verizon</div>
 							<div className="work-subtitle">
-								Solutions Architect Intern
+								Software Engineering Intern
 							</div>
 							<div className="work-duration">Summer 2024</div>
 						</div>
